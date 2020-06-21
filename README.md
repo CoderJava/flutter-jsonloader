@@ -2,6 +2,8 @@
 
 JSON Loader Package to read JSON from asset.
 
+![Logo Flutter JSON LOADER](https://github.com/CoderJava/flutter-jsonloader/blob/master/logo_package.png "Logo Flutter JSON Loader")
+
 ## Features
 
 * Load and read JSON from assets.
