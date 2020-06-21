@@ -1,8 +1,8 @@
 name: jsonloader
-description: JSON Loader Package
-version: 0.0.1
-author:
-homepage:
+description: JSON Loader Package for read JSON from asset
+version: 1.0.0
+author: Yudi Setiawan <kolonel.yudisetiawan@gmail.com>
+homepage: https://github.com/CoderJava/flutter-jsonloader
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -15,10 +15,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
 
   # To add assets to your package, add an assets section, like this:
