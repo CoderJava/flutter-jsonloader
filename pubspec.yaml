@@ -1,7 +1,6 @@
 name: jsonloader
 description: JSON Loader Package to read JSON from asset
 version: 1.0.0
-author: Yudi Setiawan <kolonel.yudisetiawan@gmail.com>
 homepage: https://github.com/CoderJava/flutter-jsonloader
 
 environment:
