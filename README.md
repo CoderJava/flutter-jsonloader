@@ -3,6 +3,7 @@
 JSON Loader Package to read JSON from asset.
 
 [![Pub Version](https://img.shields.io/pub/v/jsonloader)](https://pub.dev/packages/jsonloader)
+[![License](https://img.shields.io/github/license/CoderJava/flutter-jsonloader)](https://opensource.org/licenses/MIT)
 
 ![Logo Flutter JSON LOADER](https://github.com/CoderJava/flutter-jsonloader/blob/master/logo_package.png "Logo Flutter JSON Loader")
 
