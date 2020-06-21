@@ -18,7 +18,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var jsonString = '';
+  var result = '';
 
   @override
   Widget build(BuildContext context) {
@@ -31,13 +31,27 @@ class _HomePageState extends State<HomePage> {
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(jsonString),
-            RaisedButton(
-              child: Text('Read JSON'),
-              onPressed: () async {
-                jsonString = await JSONLoader().getJsonAsString('assets/login_response.json');
-                setState(() {});
-              },
+            Text(result),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                RaisedButton(
+                  child: Text('Read JSON As String'),
+                  onPressed: () async {
+                    result = await JSONLoader().getJsonAsString('assets/login_response.json');
+                    setState(() {});
+                  },
+                ),
+                SizedBox(width: 16),
+                RaisedButton(
+                  child: Text('Read JSON As Map'),
+                  onPressed: () async {
+                    var jsonMap = await JSONLoader().getJsonAsMap('assets/login_response.json');
+                    result = jsonMap['message'];
+                    setState(() {});
+                  },
+                ),
+              ],
             ),
           ],
         ),
