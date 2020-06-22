@@ -18,7 +18,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  jsonloader: ^1.0.0
+  jsonloader: ^1.0.1
 ```
 
 In your library add the following import:
